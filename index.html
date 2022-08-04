@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+        <title>Calender</title>
+
+                          <!-- CSS -->
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+                                <!-- Boxicons -->
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+
+    <body class>
+
+        <section class="calender container">
+            <div class="calender__container grid">
+                <div class="calender__content grid">
+                    <div class="calender__cube">
+
+                        <!-- Dark/light -->
+                    <div class="calender__theme">
+                        <i class='bx bxs-moon' id ='theme-button'></i>
+                    </div>
+                    <div class="calender__header">
+                        <span id="month__selector" class="month__selector">
+                            February
+                        </span>
+                        <div class="year__picker">
+                            <span class="year__change" id =prev__year>
+                                <pre><</pre>
+                            </span>
+                            <span class="year" id="year">2021</span>
+                            <span class="year__change" id="next__year">
+                                <pre>></pre>
+                            </span>
+                        </div>
+                        </div>
+
+                    <div class="calender__body">
+                        <div class="calender__week__day">
+                            <div>Sunday</div>
+                            <div>Monday</div>
+                            <div>Tuesday</div>
+                            <div>Wed</div>
+                            <div>Thursday</div>
+                            <div>Friday</div>
+                            <div>Saturday</div>
+                        </div>
+                        <div class="calender__days">
+                            <div>1
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class='calender__footer'>
+                        
+                    </div>
+
+                    <div class="calender__month__list"></div>
+
+                    </div>
+                </div>
+                <a href="#" class="calender__logo"><em><i class='bx bxs-copyright'></i>  Shubham Maurya</em></a>
+            </div>
+        </section>
+
+                        <!-- Main JS -->
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
